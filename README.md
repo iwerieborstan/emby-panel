@@ -42,9 +42,15 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 ```bash
 DocumentRoot /var/www/html
 ```
+```bash
+Directory /var/www/html
+```
 #### 改为 
 ```bash
 DocumentRoot /opt/emby_panel
+```
+```bash
+Directory /opt/emby_panel
 ```
 ##### 保存退出：Ctrl+O → 回车 → Ctrl+X
 
