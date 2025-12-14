@@ -15,7 +15,13 @@
 
 ## 部署教程
 
-### 1. docker-compose.yml
+
+### 1. config.php
+#### 模版
+```bash
+https://raw.githubusercontent.com/dannisjay/emby_panel/refs/heads/main/config.php
+```
+### 2. docker-compose.yml
 ```bash
 services:
   emby-panel:
@@ -25,16 +31,11 @@ services:
       - "8080:80"
     volumes:
       - ./config.php:/var/www/html/config.php:ro
-      - ./data:/data
-      - ./logs:/logs
+      - ./data:/data  # 自动创建
+      - ./logs:/logs  # 自动创建
     environment:
       TZ: Asia/Shanghai
     restart: unless-stopped
-```
-### 2. config.php
-#### 模版
-```bash
-https://raw.githubusercontent.com/dannisjay/emby_panel/refs/heads/main/config.php
 ```
 ### 3. 访问面板
 #### 浏览器打开下面地址
