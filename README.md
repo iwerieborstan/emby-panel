@@ -32,7 +32,10 @@ services:
     restart: unless-stopped
 ```
 ### 2. config.php
-
+#### 模版
+```bash
+https://raw.githubusercontent.com/dannisjay/emby_panel/refs/heads/main/config.php
+```
 ### 3. 访问面板
 #### 浏览器打开下面地址
 ```bash
