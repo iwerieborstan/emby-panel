@@ -12,7 +12,8 @@ return [
     
     // ========== 用户系统配置 ==========
     'user' => [
-        'preset_userid' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',  // 预设用户ID（模板用户）
+        'preset_userid' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',  // 预设用户ID（用户）
+         // 网页登录Emby，点进模版用户，浏览器地址userId=后面的ID
         'admin_username' => 'admin',                            // 管理员账户
         'admin_password' => 'admin123',                         // 管理员密码
         'invite_file' => 'invite_codes.json',                   // 邀请码存储文件
@@ -26,14 +27,14 @@ return [
         'enable_inactive_cleanup' => true,   // 是否启用未登录账号清理
         'skip_never_logged_in' => false,     // 是否跳过从未登录的账号
         'skip_admins' => true,               // 是否跳过管理员账号
-        'log_file' => 'logs/inactive_cleanup_log.txt', // 清理日志文件
+        'log_file' => 'logs/inactive_cleanup_log.txt',
     ],
 
     // ========== 网站前端配置 ==========
     'site' => [
         'name' => 'Emby',                                   // 网站名称
         'title' => 'Emby Signup',                           // 页面标题
-        'emby_login_url' => 'https://emby.com',             // Emby 登录地址
+        'emby_login_url' => 'https://emby.com',             // Emby公网地址
         'custom_image' => 'https://www.loliapi.com/acg/pe/',    // 背景API
         'favicon' => 'https://emby.media/favicon-96x96.png',    // 网站图标
         'theme' => [                                            
@@ -46,10 +47,10 @@ return [
     
     // ========== 媒体库管理配置 ==========
     'media' => [
-        'default_mode' => 'HIDE',                               // 默认操作模式
-        'skip_admin' => true,                                   // 是否跳过管理员用户
-        'api_timeout' => 10,                                    // API超时时间（秒）
-        'max_retries' => 2,                                     // API最大重试次数
+        'default_mode' => 'HIDE',
+        'skip_admin' => true,
+        'api_timeout' => 10,
+        'max_retries' => 2,
     ],
     
     // ========== 邀请码系统配置 ==========
@@ -80,7 +81,7 @@ return [
             'require_numbers' => false,
             'require_special_chars' => false,
         ],
-        'csrf_protection' => true,                             // CSRF保护
+        'csrf_protection' => true,
     ],
 ];
 ?>
