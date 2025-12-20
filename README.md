@@ -25,6 +25,7 @@
 ```bash
 https://raw.githubusercontent.com/dannisjay/emby-panel/refs/heads/main/config.php
 ```
+#### config.php文件权限
 ```bash
 sudo chmod 664 /opt/emby-panel/config.php
 ```
