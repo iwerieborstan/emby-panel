@@ -34,7 +34,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./config.php:/var/www/html/config.php:ro
+      - ./config.php:/var/www/html/config.php:rw
       - ./data:/data  # 自动创建
       - ./logs:/logs  # 自动创建
     environment:
