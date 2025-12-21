@@ -34,12 +34,11 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./config.php:/var/www/html/config.php:rw
+      - ./config.php:/var/www/html/config.php:ro
       - ./data:/data  # 自动创建
       - ./logs:/logs  # 自动创建
     environment:
       TZ: Asia/Shanghai
-    user: "${UID:-1000}:${GID:-1000}"
     restart: unless-stopped
 ```
 ### 3. 访问面板
