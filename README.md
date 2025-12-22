@@ -17,6 +17,8 @@
 ### 目录结构
 ```bash
 /opt/emby-panel
+├── /data
+├── /logs
 ├── config.php
 ├── docker-compose.yml
 ```
@@ -25,7 +27,18 @@
 ```bash
 https://raw.githubusercontent.com/dannisjay/emby-panel/refs/heads/main/config.php
 ```
-### 2. docker-compose.yml
+### 2.修改权限
+```bash
+sudo chmod 775 /opt/emby-panel/data
+```
+```bash
+sudo chmod 775 /opt/emby-panel/logs
+```
+```bash
+sudo chmod 775 /opt/emby-panel/config.php
+```
+
+### 3. docker-compose.yml
 ```bash
 services:
   emby-panel:
@@ -35,8 +48,8 @@ services:
       - "8080:80"
     volumes:
       - ./config.php:/var/www/html/config.php:ro
-      - ./data:/data  # 自动创建
-      - ./logs:/logs  # 自动创建
+      - ./data:/data
+      - ./logs:/logs
     environment:
       TZ: Asia/Shanghai
     restart: unless-stopped
