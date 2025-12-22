@@ -17,8 +17,8 @@
 ### 目录结构
 ```bash
 /opt/emby-panel
-├── /data
-├── /logs
+├── data/
+├── logs/
 ├── config.php
 ├── docker-compose.yml
 ```
